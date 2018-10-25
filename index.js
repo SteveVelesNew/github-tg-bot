@@ -104,7 +104,7 @@ bot.on('callback_query', query =>{
 function sendGreeting(msg, sayHello = true) {
     const text = sayHello
         ? `Приветствую, ${msg.from.first_name}\nЧто вы хотите сделать?`
-        : `Что вы хотите ищо? `
+        : `Что вы хотите ещё? `
 
     bot.sendMessage(msg.chat.id, text, {
         reply_markup: {
@@ -181,5 +181,5 @@ function sendCurrencyScreen(chatId){
 
 //deploy
 //https://www.youtube.com/watch?time_continue=38&v=IuUY-OJ0GXE
-//2.2 (dog)
+//2.3 (dog, ещё)
 
