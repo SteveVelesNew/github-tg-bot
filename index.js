@@ -22,6 +22,7 @@ const KB = {
     picture: 'Картинкы',
     cat: 'Котик',
     car: 'Машина',
+    dog: 'Пёсик',
     back: 'Назад'
 }
 
@@ -34,6 +35,10 @@ const PicScrs = {
         'car1.jpg',
         'car2.jpg',
         'car3.png'
+    ],
+    [KB.dog]: [
+        'dog1.jpg',
+        'dog2.jpg'
     ]
 }
 
@@ -115,7 +120,7 @@ function sendPictureScreen(chatId) {
     bot.sendMessage(chatId, 'Выбирите картинки:', {
         reply_markup: {
             keyboard: [
-                [KB.car, KB.cat],
+                [KB.car, KB.cat, KB.dog],
                 [KB.back]
             ]
         }
@@ -175,5 +180,5 @@ function sendCurrencyScreen(chatId){
 
 //deploy
 //https://www.youtube.com/watch?time_continue=38&v=IuUY-OJ0GXE
-//2
+//2.1 (dog)
 
