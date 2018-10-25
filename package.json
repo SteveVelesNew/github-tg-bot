@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.12.0"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.30.0"
+    "lodash": "^4.17.11",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0",
+    "require": "^2.4.20"
   }
 }
