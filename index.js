@@ -63,6 +63,7 @@ bot.on('message', msg=>{
             break
         case KB.car:
         case KB.cat:
+        case KB.dog:
             sendPictureByName(msg.chat.id, msg.text)
             break
     }
@@ -180,5 +181,5 @@ function sendCurrencyScreen(chatId){
 
 //deploy
 //https://www.youtube.com/watch?time_continue=38&v=IuUY-OJ0GXE
-//2.1 (dog)
+//2.2 (dog)
 
