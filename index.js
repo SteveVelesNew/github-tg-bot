@@ -12,7 +12,7 @@ require('http').createServer().listen(process.env.PORT || 5000).on('request', fu
 var http = require("http");
 setInterval(function() {
     http.get("https://git.heroku.com/heroku-tg-bot3.git");
-}, 300000); // every 5 minutes (3000)
+}, 30000); // every 5 minutes (300 000)
 //============not Idline - тихий час================//
 
 
